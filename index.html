@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <div class="container">
+        <div class="header">
+            <h1>Speak...</h1>
+            <h2>I Speak The Text You Write!</h2>
+        </div>
+    <div id="main">
+         <div  >
+        <textarea name=""  placeholder="Start Typing here"   id="textbox"></textarea>
+    </div>
+   <div class="ranges">
+    <div id="pitch" >
+        <div>
+            <label for="pitch">Pitch</label>
+         <div class="pitch-value">1</div>
+        </div>
+        <input type="range" min="0" max="2" value="1" step="0.1" id="pitch-slider" >
+    </div>
+    <div id="rate" >
+        <div>
+            <label for="rate">Rate</label>
+         <div class="rate-value">1</div>
+        </div>
+        <input type="range" min="0" max="2" value="1" step="0.1" id="rate-slider" >
+    </div>
+</div>
+   </div>
+  
+   <div class="footer">
+    <div id="select">
+        <select>
+            <option value="1">Go to hero songs dancing maoon</option>
+            <option value="2">Go to hero songs da</option>
+        </select>
+    </div>
+     
+    <div >
+        <button id="speak">Speak</button>
+    </div>
+   </div>
+    
+    </div>
+    
+    
+</body>
+<script src="script.js"></script>
+</html>

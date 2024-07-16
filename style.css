@@ -1,0 +1,103 @@
+#textbox{
+    resize: none;
+    outline: none;
+    box-shadow: rgba(240, 46, 170, 0.4) -5px 5px, rgba(240, 46, 170, 0.3) -10px 10px, rgba(240, 46, 170, 0.2) -15px 15px, rgba(240, 46, 170, 0.1) -20px 20px, rgba(240, 46, 170, 0.05) -25px 25px;
+    background-color:lavender;
+    height: 40vh;
+    width: 30vw;
+    font-size: x-large;
+}
+
+body{
+    padding: 0;
+    margin:0;
+    color: darkviolet;
+    background-color: black;
+}
+
+.header{
+    /* border: 1px solid red; */
+    display: flex;
+    align-items: baseline;
+    font-size: x-large;
+}
+.header>h1{
+    background-color: seagreen;
+    color: beige;
+    border-radius: 30%;
+}
+
+.container{
+    /* border: 1px solid red; */
+    display: flex;
+    flex-direction: column;
+    align-items: center;   
+    justify-content: center;
+    height: 100vh;
+    width:100vw;
+}
+
+#main{
+    /* border:1px solid green; */
+    display: flex;
+}
+
+.ranges{
+    /* border: 1px solid purple; */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color:chartreuse;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px inset, rgba(0, 0, 0, 0.3) 0px 18px 36px -18px inset;
+
+    
+}
+
+#pitch,#rate{
+    /* border: 1px solid green; */
+    display: flex;
+    align-items: end;
+    font-size: 1.5rem;
+    font-weight: 800;
+    
+}
+
+.pitch-value,.rate-value{
+    /* border: 1px solid red; */
+    text-align: center;
+   
+}
+
+.footer{
+    display: flex;
+    flex-direction: column;
+    /* border: 5px solid green; */
+    width: 100vw;
+    justify-content: center;
+    align-items: center;
+}
+#select{
+    padding:1rem;
+    
+}
+select,button{
+    font-size: 1.5rem;
+    padding:0.5rem;
+}
+button{
+    background-color:pink;
+    color:purple;
+    font-weight: 600;
+}
+
+
+@media screen and (max-width:768px){
+    #textbox{
+        width:40vw;
+      
+    }  
+    .ranges{
+        width: 30vw;
+    }
+}
+
